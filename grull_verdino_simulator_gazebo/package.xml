@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package>
+  <name>grull_verdino_simulator_gazebo</name>
+  <version>0.0.1</version>
+  <description>Verdino autonomous vehicle simulation model and environments.</description>
+
+  <maintainer email="dani@isaatc.ull.es">Daniel Perea Strom</maintainer>
+
+  <license>BSD</license>
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://ros.org/wiki/grull_verdino_simulator_gazebo</url> -->
+
+  <author email="dani@isaatc.ull.es">Daniel Perea Strom</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>ackermann_vehicle_gazebo</build_depend>
+  <build_depend>gazebo</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <run_depend>ackermann_vehicle_gazebo</run_depend>
+  <run_depend>gazebo</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+
+
+  <export>
+  </export>
+</package>
